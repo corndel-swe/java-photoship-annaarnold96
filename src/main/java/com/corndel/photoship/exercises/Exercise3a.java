@@ -14,6 +14,7 @@ public class Exercise3a {
    */
   public static String nameTag(String name) {
     // TODO
-    return null;
+    var greeting = String.format("Hello, my name is %s!", name.toUpperCase());
+    return greeting;
   }
 }
